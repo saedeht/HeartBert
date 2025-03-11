@@ -1,11 +1,5 @@
 <h1 style="font-size: 24px;">HeartBERT</h1>
 
-**Team Members:**
-- Saeed Farzi
-- Saedeh Tahery
-- Fatemeh HamidAkhlaghi
-- Termeh Amirsoleimani
-
 <div style="text-align: justify">
 
 **📝 Overview:**
@@ -85,17 +79,3 @@ from transformers import AutoTokenizer, AutoModel
 tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path="[link_to_tokenizer]")
 heartbert_model = AutoModel.from_pretrained("[link_to_model]")
 ```
-
----
-
-## 📚 **Citation**
-If you use *HeartBERT* in your research, please cite our [paper](https://arxiv.org/abs/2411.11896) as follows:
-```python
-"""
-@article{heartbert2024,
-  title={HeartBERT: A Self-Supervised ECG Embedding Model for Efficient and Effective Medical Signal Analysis},
-  author={Saedeh Tahery and Fatemeh HamidAkhlaghi and Termeh Amirsoleimani and Saeed Farzi and Carlo Strapparava},
-  journal={arXiv preprint arXiv:2411.11896}, 
-  year={2024}
-}
-"""
